@@ -91,7 +91,6 @@ class Bootstrap
 
         // Main dispatching process
         $this->dispatch($di);
-
     }
 
     private function initRouting($application, $di)
